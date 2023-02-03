@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <title>my Order</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <p>SyntaxSnacks</p>
+    </div>
+    <nav class="nav-section">
+      <a class="item" href="./index.html">Home</a>
+      <a class="item" href="./index.html">Menu</a>
+      <a class="item" href="./my-order.html">Mi Orden</a>
+    </nav>
+  </header>
+  <nav class="tab-bar__container">
+    <ul class="tab-bar">
+      <li class="tab-bar--item"><a href="./index.html"><i class="fi fi-sr-home"></i></a></li>
+      <li class="tab-bar--item"><a href="#"><i class="fi fi-sr-apps"></i></a></li>
+      <li class="tab-bar--item active"><a href="./my-order.html"><i class="fi fi-sr-shopping-cart"></i></a></li>
+      <li class="tab-bar--item"><a href="./index.html"><i class="fi fi-sr-search"></i></a></li>
+    </ul>
+  </nav>
+  <section class="order">
+    <div class="order__container">
+      <h1 class="order__title">My Order</h1>
+      <div class="order__items">
+        <article class="order__summary">
+          <p class="order__date-items">
+            <span class="order__date">03.25.23</span>
+            <span class="order__number-of-items">4 articles</span>
+          </p>
+          <p class="order__total">
+            $350.00
+          </p>
+        </article>
+
+        <article class="order__item">
+          <figure class="order__item-image">
+            <img src="https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </figure>
+          <div class="order__info">
+            <p class="order__item-name">Burger: Double Meat</p>
+            <p class="order__item-price">$13.00</p>
+            <div class="order__item-actions">
+              <button class="order__item-remove-btn">Remove</button>
+            </div>
+          </div>
+        </article>
+        <article class="order__item">
+          <figure class="order__item-image">
+            <img src="https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </figure>
+          <div class="order__info">
+            <p class="order__item-name">Hot dog: Extreme</p>
+            <p class="order__item-price">$13.00</p>
+            <div class="order__item-actions">
+              <button class="order__item-remove-btn">Remove</button>
+            </div>
+          </div>
+        </article>
+        <article class="order__item">
+          <figure class="order__item-image">
+            <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </figure>
+          <div class="order__info">
+            <p class="order__item-name">Pizza: Double Cheesse</p>
+            <p class="order__item-price">$13.00</p>
+            <div class="order__item-actions">
+              <button class="order__item-remove-btn">Remove</button>
+            </div>
+          </div>
+        </article>
+        <article class="order__item">
+          <figure class="order__item-image">
+            <img src="https://images.pexels.com/photos/4113682/pexels-photo-4113682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+          </figure>
+          <div class="order__info">
+            <p class="order__item-name">Soda: Coca-cola</p>
+            <p class="order__item-price">$13.00</p>
+            <div class="order__item-actions">
+              <button class="order__item-remove-btn">Remove</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__col">
+      <p>&copy; My Website 2023</p>
+      <p>Todos los derechos reservados</p>
+    </div>
+    <div class="footer__col">
+      <p>Acerca de nosotros</p>
+      <p>Contacto</p>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>

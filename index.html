@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+  <title>SyntaxSnacks</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <p>SyntaxSnacks</p>
+    </div>
+    <nav class="nav-section">
+      <a class="item" href="#home">Home</a>
+      <a class="item" href="#menu">Menu</a>
+      <a class="item" href="./my-order.html">Mi Orden</a>
+    </nav>
+  </header>
+  <nav class="tab-bar__container">
+    <ul class="tab-bar">
+      <li class="tab-bar--item active"><a href="#home"><i class="fi fi-sr-home"></i></a></li>
+      <li class="tab-bar--item"><a href="#menu"><i class="fi fi-sr-apps"></i></a></li>
+      <li class="tab-bar--item"><a href="./my-order.html"><i class="fi fi-sr-shopping-cart"></i></a></li>
+      <li class="tab-bar--item"><a href="#search"><i class="fi fi-sr-search"></i></a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="home" class="hero__section">
+      <input id="search" class="hero__input" type="text" placeholder="what do you want today?">
+      <div class="hero__section--cards">
+        <article class="hero__card">
+          <img src="https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger">
+          <div class="hero__card--info">
+            <h1>Burgers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        <article class="hero__card">
+          <img src="https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pizza">
+          <div class="hero__card--info">
+            <h1>Pizza</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+        <article class="hero__card">
+          <img src="https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hot dog">
+          <div class="hero__card--info">
+            <h1>Hot dogs</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="menu" class="menu__section">
+      <h2>Menu</h2>
+      <section class="menu__icons">
+        <div><img src="./icons/burguer.png" alt="burger-icon"></div>
+        <div><img src="./icons/pizza.png" alt=""></div>
+        <div><img src="./icons/pancho.png" alt=""></div>
+        <div><img src="./icons/refresco.png" alt=""></div>
+      </section>
+      <section class="menu__items">
+        <article class="menu__item">
+          <img src="https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger-meat">
+          <div class="menu__item--info">
+            <h2>Double Meat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, assumenda?</p>
+            <p><span>$12.00</span></p>
+          </div>
+          <button class="menu__item--btn"><i class="fi fi-sr-shopping-cart-add"></i></button>
+        </article>
+        <article class="menu__item">
+          <img src="https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger-meat">
+          <div class="menu__item--info">
+            <h2>Double Meat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, assumenda?</p>
+            <p><span>$12.00</span></p>
+          </div>
+          <button class="menu__item--btn"><i class="fi fi-sr-shopping-cart-add"></i></button>
+        </article>
+        <article class="menu__item">
+          <img src="https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger-meat">
+          <div class="menu__item--info">
+            <h2>Double Meat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, assumenda?</p>
+            <p><span>$12.00</span></p>
+          </div>
+          <button class="menu__item--btn"><i class="fi fi-sr-shopping-cart-add"></i></button>
+        </article>
+        <article class="menu__item">
+          <img src="https://images.pexels.com/photos/2089717/pexels-photo-2089717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Burger-meat">
+          <div class="menu__item--info">
+            <h2>Double Meat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, assumenda?</p>
+            <p><span>$12.00</span></p>
+          </div>
+          <button class="menu__item--btn"><i class="fi fi-sr-shopping-cart-add"></i></button>
+        </article>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__col">
+      <p>&copy; My Website 2023</p>
+      <p>Todos los derechos reservados</p>
+    </div>
+    <div class="footer__col">
+      <p>Acerca de nosotros</p>
+      <p>Contacto</p>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
